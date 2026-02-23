@@ -1,0 +1,6 @@
+Nov 14 10:12:06 webserver01 nginx[1324]: ERROR: failed to bind to 0.0.0.0:443
+Nov 14 10:12:07 webserver01 sshd[2481]: Failed password for root from 10.10.10.23 port 42311 ssh2
+Nov 14 10:12:11 webserver01 kernel: segfault at 0000000000000000 ip 00007f9c9f1c00 sp 7ffc9dcd0000 error 4 in libexample.so
+Nov 14 10:12:13 webserver01 systemd[1]: nginx.service: Active: failed (Result: exit-code)
+Nov 14 10:12:16 webserver01 kernel: kernel panic - not syncing: Fatal exception
+echo Nov 14 10:12:99 webserver01 kernel: kernel panic - not syncing: test
